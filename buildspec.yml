@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "No installation commands"
+  pre_build:
+    commands:
+      - echo "No pre-build commands"
+  build:
+    commands:
+      - echo "No build commands"
+  post_build:
+    commands:
+      - echo "No post-build commands"
+
+artifacts:
+  files:
+    - "**/*"
